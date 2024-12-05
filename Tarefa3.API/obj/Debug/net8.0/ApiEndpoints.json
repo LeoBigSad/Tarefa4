@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "Tarefa3.API.Controllers.PersonController",
+    "Method": "GetAddressByPersonId",
+    "RelativePath": "api/Person/{id}/address",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tarefa3.API.Controllers.PersonController",
+    "Method": "GetAll",
+    "RelativePath": "api/Person/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tarefa3.API.Controllers.CharacterController",
+    "Method": "GetCharacterById",
+    "RelativePath": "Character/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
